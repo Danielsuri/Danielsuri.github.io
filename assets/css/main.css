@@ -1859,7 +1859,10 @@ input, select, textarea {
 					background-color: #39A3D4;
 				}
 
-				ul.social li a.fa-skype {
+				.social li a.fa-file-download::before {
+					background-color: transparent;
+				}
+				ul.social li a.fa-file-download {
 					background-color: #10BEF1;
 				}
 
