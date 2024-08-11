@@ -1860,7 +1860,7 @@ input, select, textarea {
 				}
 
 				.social li a.fa-file-download::before {
-					background-color: transparent;
+					background-color: #10BEF1;
 				}
 				ul.social li a.fa-file-download {
 					background-color: #10BEF1;
