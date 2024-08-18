@@ -307,6 +307,18 @@ input, select, textarea {
 			justify-content: center;
 		}
 
+		.row.aln-center .col-4:nth-child(1) {
+			order: 3; /* This will be the third box */
+		}
+	
+		.row.aln-center .col-4:nth-child(2) {
+			order: 2; /* This will be the first box */
+		}
+	
+		.row.aln-center .col-4:nth-child(3) {
+			order: 1; /* This will be the second box */
+		}
+
 		.row.aln-right {
 			justify-content: flex-end;
 		}
@@ -1040,6 +1052,18 @@ input, select, textarea {
 					justify-content: center;
 				}
 
+				.row.aln-center .col-4:nth-child(1) {
+					order: 2; /* This will be the third box */
+				}
+			
+				.row.aln-center .col-4:nth-child(2) {
+					order: 1; /* This will be the first box */
+				}
+			
+				.row.aln-center .col-4:nth-child(3) {
+					order: 3; /* This will be the second box */
+				}
+
 				.row.aln-right {
 					justify-content: flex-end;
 				}
@@ -1283,6 +1307,18 @@ input, select, textarea {
 
 				.row.aln-center {
 					justify-content: center;
+				}
+
+				.row.aln-center .col-4:nth-child(1) {
+					order: 1; /* This will be the third box */
+				}
+			
+				.row.aln-center .col-4:nth-child(2) {
+					order: 2; /* This will be the first box */
+				}
+			
+				.row.aln-center .col-4:nth-child(3) {
+					order: 3; /* This will be the second box */
 				}
 
 				.row.aln-right {
@@ -1916,7 +1952,7 @@ input, select, textarea {
 	.box {
 		background: #fff;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-		text-align: center;
+		text-align: left;
 		padding: 2em;
 	}
 
