@@ -1652,6 +1652,15 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
+		.image.overlay {
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: stretch;
+		}
+
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -1942,6 +1951,10 @@ input, select, textarea {
 			.box.style1 h3 {
 				margin-bottom: 0.5em;
 			}
+		
+		.box.style2 {
+			height: 100%;
+		}
 
 		.box.style2 h3 {
 			margin-bottom: 0.25em;
